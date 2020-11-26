@@ -14,6 +14,7 @@ Commands to run different main files can be found in the commands.txt file, and 
 
 <img width=280 alt="file_system" src="https://user-images.githubusercontent.com/55019110/66723566-cac55080-ee1a-11e9-92b2-33c8cae2556b.png">
 
+___
 ### Run code
 
 #### MAIN COMMANDS TO TRAIN THE MODEL
