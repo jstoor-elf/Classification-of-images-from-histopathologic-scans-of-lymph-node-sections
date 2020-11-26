@@ -2,7 +2,7 @@
 
 ### Presentation of results - for teachers
 
-The final report and the power point presentation can be found as pdf files in the Documents folder. The code can be found in the src folder. This project was developed as apart of course CM2003 at KTH. 
+This project was developed as apart of course CM2003 at KTH. The final report and the power point presentation are found as pdf files in the Documents folder. The code is found in the src folder. 
 
 ### Task
 
