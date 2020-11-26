@@ -6,7 +6,7 @@ This project was developed as a part of course CM2003 at KTH. The final report a
 
 ### Task
 
-This is binary classification task with a dataset that are already class weighted. All python files in the root directory are main files. This pipeline uses configuration files for training and prediction, and the files can be found in the InputFiles folder. Keras implementations of VGG, ResNet, and DenseNet can be found in the Models folder. Utility functions, e.g. to read in json files and plot resluts are found in the Utils folder. The Results folder and its subfolders are created automatically within the scripts.   
+This is binary classification task with a dataset that is already class weighted. All python files in the root directory are main files. This pipeline uses configuration files for training and prediction, and the files can be found in the InputFiles folder. Keras implementations of VGG, ResNet, and DenseNet can be found in the Models folder. There is also an implementation of an ensemble learner for prediction, this learner calculates the mean prediction score from the three indivdual models, and this is done for each metric. Utility functions, e.g. to read in json files and plot resluts are found in the Utils folder. The Results folder and its subfolders are created automatically within the scripts.   
 
 <img width="1107" alt="Patchet" src="https://user-images.githubusercontent.com/55019110/100355418-ffca3d80-2ff1-11eb-80af-110b31d68ef7.png">
 
