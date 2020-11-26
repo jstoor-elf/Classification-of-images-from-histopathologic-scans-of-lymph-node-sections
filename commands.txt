@@ -1,0 +1,39 @@
+### MAIN COMMANDS TO TRAIN THE MODEL ###
+
+[1] python train.py vgg.json # Train VGG16 
+[2] python train.py resnet.json # Train ResNet50
+[3] python train.py densenet.json # Train DenseNet121
+
+
+
+### MAIN COMMAND TO PREDICT ALL THE MODELS AND AN ENSEMBLE LEARNER ON THE TEST DATA ###
+
+[4] python predict.py prediction.json # Produces a ROC curve also --> stored in Results/Plots
+
+
+
+### MAIN COMMANDS TO PRODUCE PLOTS OF THE TRAINING CURVES FROM [1] - [3]  
+
+# Plot loss curves for all model in one figure, for trianing and validation sets
+[5] python plot_history.py -f VGG16.csv ResNet50.csv DenseNet121.csv -n VGGNet16 ResNet50 DenseNet121 -m loss -s loss.png
+
+
+# Plot accuracy curves for all model in one figure, for trianing and validation sets
+[6] python plot_history.py -f VGG16.csv ResNet50.csv DenseNet121.csv -n VGGNet16 ResNet50 DenseNet121 -m binary_accuracy -s accuracy.png
+
+
+# Plot precision curves for all model in one figure, for trianing and validation sets
+[7] python plot_history.py -f VGG16.csv ResNet50.csv DenseNet121.csv -n VGGNet16 ResNet50 DenseNet121 -m precision -s precision.png
+
+
+# Plot sensitivity curves for all model in one figure, for trianing and validation sets
+[8] python plot_history.py -f VGG16.csv ResNet50.csv DenseNet121.csv -n VGGNet16 ResNet50 DenseNet121 -m sensitivity -s sensitivity.png
+
+
+
+### MAIN COMMAND TO GO THROUGH THE TRAINING DATASET 64 IMAGES AT A TIME ###
+
+# Change -d to 'test' or 'valid' for training or validation sets
+[9] python show_dataset.py -d train 
+
+

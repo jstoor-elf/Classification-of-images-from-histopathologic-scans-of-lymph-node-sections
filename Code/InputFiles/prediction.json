@@ -1,0 +1,10 @@
+{
+    "modelfiles" : ["VGG16.h5", "ResNet50.h5", "DenseNet121.h5"],
+    "model_dir" : "Results/Models/",
+    "dataset_type" : "test",
+    "ensemble" :  true,
+    "my_metrics" : ["precision", "sensitivity"],
+    "ROC_AUC" : true,
+    "roc_path" : "Results/Plots",
+    "roc_figname" : "ROC_curve_test.png"
+}

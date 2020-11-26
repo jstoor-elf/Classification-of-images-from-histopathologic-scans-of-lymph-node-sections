@@ -1,0 +1,34 @@
+{
+    "model" : "DenseNet",
+    "modelparams" : {
+        "base" : 16,
+        "dense_blocks" : 4,
+        "layers_per_block" : [6, 12 , 24, 16],
+        "growth_rate" : 8,
+        "dense_depth" : 5,
+        "out_fnc": "sigmoid",
+        "classes" : 1,
+        "bottleneck" : true,
+        "dropout_rate" : 0.5
+    },
+    "regimen" : {
+        "lr" : 0.00001,
+        "batch_size" : 16,
+        "epochs" : 50,
+        "loss" : "binary_crossentropy",
+        "optimizer" : "Adam",
+        "data_augmentation" : true,
+        "metrics" : ["binary_accuracy", "precision", "sensitivity"]
+    },
+    "augmentation" : {
+        "rotation_range" : 10,
+        "width_shift_range" : 4,
+        "height_shift_range" : 4,
+        "horizontal_flip" : true,
+        "vertical_flip" : true
+    },
+    "result" : {
+        "history_file_name" : "DenseNet121.csv",
+        "model_file_name" : "DenseNet121.h5"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "model" : "ResNet",
+    "modelparams" : {
+        "base" : 16,
+        "layers_per_block" : [3, 4, 6, 3],
+        "out_fnc": "sigmoid",
+        "n_classes" : 1
+    },
+    "regimen" : {
+        "lr" : 0.0001,
+        "batch_size" : 16,
+        "epochs" : 50,
+        "loss" : "binary_crossentropy",
+        "optimizer" : "Adam",
+        "data_augmentation" : true,
+        "metrics" : ["binary_accuracy", "precision", "sensitivity"]
+    },
+    "augmentation" : {
+        "rotation_range" : 10,
+        "width_shift_range" : 4,
+        "height_shift_range" : 4,
+        "horizontal_flip" : true,
+        "vertical_flip" : true
+    },
+    "result" : {
+        "history_file_name" : "ResNet50.csv",
+        "model_file_name" : "ResNet50.h5"
+    }
+}
