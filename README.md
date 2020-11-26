@@ -12,7 +12,7 @@ This is binary classification task with a dataset that is already class weighted
 
 The user can view the dataset by stepping through 64 images at a time using the show_dataset file, and can generate plots in arbitrary ways using csv history files from past training round, using plot_history. These two main files in the root folder uses argparsers. 
 
-Commands to run different main files can be found in the commands.txt file, and also in each main file. The full filesystem with Code as root can be seen in the tree diagram below. The data should be put in /Code/dl_data/Camelyon/, which is the case in the tree diagram. The files can be downloaded from https://patchcamelyon.grand-challenge.org/Introduction/. 
+Commands to run the different main files are found below, but they are also found in each main file. The full filesystem with src as root can be seen in the tree diagram below. The data should be put in /src/dl_data/Camelyon/, which is the case in the tree diagram. The files can be downloaded from https://patchcamelyon.grand-challenge.org/Introduction/. 
 
 <img width=280 alt="file_system" src="https://user-images.githubusercontent.com/55019110/66723566-cac55080-ee1a-11e9-92b2-33c8cae2556b.png">
 
