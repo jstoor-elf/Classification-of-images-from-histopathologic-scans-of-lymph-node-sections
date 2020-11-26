@@ -13,7 +13,6 @@ import sys
 
 
 ###  MAIN COMMANDS TO TRAIN THE MODEL ###
-# http://130.237.84.86:9000 pw: medimgvis_jupyter_hwcl18
 # python train.py vgg.json
 # python train.py resnet.json
 # python train.py densenet.json
