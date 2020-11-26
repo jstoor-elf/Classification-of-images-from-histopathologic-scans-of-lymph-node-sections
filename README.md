@@ -6,7 +6,7 @@ This project was developed as a part of course CM2003 at KTH. The final report a
 
 ### Task
 
-This is binary classification task with datasets that are already class weighted. All python files in the root directory are main files. The implementation uses configuration files for training and prediction, and the files can be found in the InputFiles folder. Keras implementations of VGG, ResNet, and DenseNet can be found in the Models folder. Utility functions, e.g. to read in json files and plot resluts are found in the Utils folder. The Results folder and its subfolders are created automatically within the scripts.   
+This is binary classification task with a dataset that are already class weighted. All python files in the root directory are main files. This pipeline uses configuration files for training and prediction, and the files can be found in the InputFiles folder. Keras implementations of VGG, ResNet, and DenseNet can be found in the Models folder. Utility functions, e.g. to read in json files and plot resluts are found in the Utils folder. The Results folder and its subfolders are created automatically within the scripts.   
 
 The user can view the dataset by stepping through 64 images at a time using the show_dataset file, and can generate plots in arbitrary ways using csv history files from past training round, using plot_history. These two main files in the root folder uses argparsers. 
 
