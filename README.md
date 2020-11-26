@@ -17,7 +17,7 @@ Commands to run different main files can be found in the commands.txt file, and 
 ___
 ### Run code
 
-#### MAIN COMMANDS TO TRAIN THE MODEL
+#### MAIN COMMANDS TO TRAIN THE MODELS
 ``` 
 python train.py vgg.json # Train VGG16 [1]
 ```
