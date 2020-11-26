@@ -18,9 +18,15 @@ ___
 ### Run code
 
 #### MAIN COMMANDS TO TRAIN THE MODEL
-``` python train.py vgg.json # Train VGG16 [1] ```
-``` python train.py resnet.json # Train ResNet50 [2] ```
-``` python train.py densenet.json # Train DenseNet121 [3] ```
+``` 
+python train.py vgg.json # Train VGG16 [1]
+```
+``` 
+python train.py resnet.json # Train ResNet50 [2]
+```
+```
+python train.py densenet.json # Train DenseNet121 [3]
+```
 
 #### MAIN COMMAND TO PREDICT ALL THE MODELS AND AN ENSEMBLE LEARNER ON THE TEST DATA
 ```
